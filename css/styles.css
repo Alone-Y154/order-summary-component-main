@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  font-family: 'Red Hat Display'sans-serif;
+  background-color: hsl(225, 100%, 94%);
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Red Hat Display'sans-serif;
+  font-weight: 900;
+  padding-top: 20px;
+}
+
+p {
+  font-size: 1rem;
+  font-family: 'Red Hat Display'sans-serif;
+  margin: 30px 60px 0px 60px;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  justify-content: center;
+  text-align: center;
+}
+
+/* content */
+.content {
+  background-color: hsl(225, 100%, 94%);
+position: absolute;
+left: 40%;
+top: 15%;
+}
+
+/* box */
+.card {
+  width: 450px;
+  height: 450px;
+  background-color: white;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.illustration-hero {
+  border-radius: 20px 20px 0 0;
+  margin-bottom: -26px;
+}
+
+/* plan details */
+.plan-detais {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  margin: 40px;
+  display: flex;
+}
+
+.icon {
+  padding: 30px 20px;
+}
+
+.pricing {
+  padding-left: 20px;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Red Hat Display'sans-serif;
+  font-weight: 900;
+}
+
+.price {
+  color: hsl(224, 23%, 55%);
+}
+
+.change {
+  text-align: center;
+  padding: 40px;
+  padding-left: 80px;
+}
+
+.change-button {
+  color: hsl(245, 75%, 52%);
+}
+
+.change-button:hover {
+  color: hsl(241, 85%, 69%);
+}
+
+/* button */
+.bt-pop {
+  color: white;
+text-decoration: none;
+}
+
+.bt {
+text-decoration: none;
+font-family: 'Red Hat Display'sans-serif;
+background-color: hsl(245, 75%, 52%);
+text-align: center;
+padding: 15px;
+border-radius: 15px;
+width: 80%;
+margin-left: 30px;
+}
+
+.bt:hover {
+  background-color: hsl(241, 85%, 69%);
+}
+
+/* cancel order */
+.cancel {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.cancel-bt {
+  font-family: 'Red Hat Display'sans-serif;
+  font-weight: 500;
+  color: hsl(224, 23%, 55%);
+  text-decoration: none;
+}
+
+.cancel-bt:hover {
+  color: black;
+  text-decoration: none;
+}
